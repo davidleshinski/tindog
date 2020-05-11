@@ -1,0 +1,192 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+ font-weight: bold;
+ font-size: 1.5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.nav-item {
+  font-family: Montserrat;
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  font-family: Montserrat;
+  margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* FEATURES */
+
+#features {
+  padding: 7% 15%;
+  background: #fff;
+  position: relative;
+}
+
+#features h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.feats {
+  padding: 4.5%;
+}
+
+/* FONT AWESOME */
+
+.fa-heart {
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+.fa-check-circle {
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+.fa-bullseye {
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+.fa-heart:hover {
+  color: #ff4c68;
+}
+
+.fa-check-circle:hover {
+  color: #ff4c68;
+}
+
+.fa-bullseye:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+/* PRESS */
+
+#press {
+  background: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-column {
+  padding: 3% 2%;
+}
+
+#cta {
+background: #ff4c68;
+padding: 3% 15%;
+}
+
+#cta h3 {
+color: #fff;
+font-weight: 600;
+font-size: 3rem;
+line-height: 1.5;
+}
+
+#footer {
+  padding: 3% 15%;
+  background: : #fff;
+}
+.copyright {
+  font-size: 0.75rem;
+  color: grey;
+}
+
+.socials {
+  color: #000;
+  padding: 3% 2%;
+}
